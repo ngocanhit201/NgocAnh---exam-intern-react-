@@ -6,7 +6,7 @@ Guideline:
 2. Clone the repository to your local machine
 3. Start the development server locally:
     yarn dev
-4. Make a web like video in /public/requirement.webm:
+4. Make a web like video in /public/requirement.webm and /public/requirement.png:
     - list products with responsive
     - can add product to cart
     - cart just need to show list items
