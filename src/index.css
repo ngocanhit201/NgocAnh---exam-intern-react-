@@ -22,6 +22,7 @@
     --color-primary: var(--text-primarity);
     --color-bg-button: var(--bg-button);
     --color-bg-primary: var(--bg-primary);
+    --breakpoint-xs: 30rem;
 }
 
 a {
