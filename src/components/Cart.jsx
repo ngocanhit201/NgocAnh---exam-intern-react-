@@ -11,7 +11,11 @@ export default function Cart() {
     const [totalItems, setTotalItems] = useState(0);
     const [isShowTotal, setIsShowTotal] = useState(false);
     const [isShowCart, setIsShowCart] = useState(false);
-    console.log(cartContext.state);
+    // console.log(cartContext.state);
+    /*
+    * - Get products from cartContext
+    * - Get total quantity from cartContext
+    * */
     useEffect(() => {
         let cartProduct = cartContext.state.products.map(i => {
             let product = { ...getDataById(i.id) };
@@ -20,8 +24,12 @@ export default function Cart() {
         })
         setCartItems(cartProduct);
         setTotalItems(cartContext.state.total);
+
+        // set show total value
         cartContext.state.total > 0 ? setIsShowTotal(true) : setIsShowTotal(false);
     }, [cartContext.state.total])
+
+    /* Handle show cart  */
     function handleShowCart() {
         setIsShowCart(!isShowCart);
     }

@@ -8,7 +8,9 @@ export default function Product({id, name, price, image}) {
 
     const cartContext = useContext(CartContext);
 
-
+    /*
+    * Add new item to cart context
+    * */
     function addToCart() {
         cartContext.dispatch({type: ADD_TO_CART, payload: {id: id}});
 

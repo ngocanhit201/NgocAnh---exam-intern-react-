@@ -13,3 +13,12 @@ Guideline:
     Note: do not use lib for any action, can use any lib css
 5. After you finalize your code, push it and send us your repository link for feedback
 ```
+
+```
+Completed all requirements
+- Use tailwind to css
+- use useContext and useReducer hook to manage cart
+- Good responsive on mobile, tablet and desktop
+
+
+```
