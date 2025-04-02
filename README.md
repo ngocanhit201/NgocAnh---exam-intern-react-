@@ -13,7 +13,7 @@ Guideline:
     Note: do not use lib for any action, can use any lib css
 5. After you finalize your code, push it and send us your repository link for feedback
 ```
-
+DONE
 ```
 Completed all requirements
 - Use tailwind to css
