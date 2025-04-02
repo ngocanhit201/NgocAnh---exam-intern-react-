@@ -7,9 +7,7 @@ import Product from './components/Product';
 import Cart from './components/Cart';
 //data
 import  {getData} from "./data/useData.js";
-import {CartContext} from "./contexts/CartContext.jsx";
 import {CartProvider} from "./contexts/CartContext.jsx";
-import {ADD_TO_CART} from "./utils/constant.js";
 
 function Home() {
     const [products, setProducts] = useState([]);
