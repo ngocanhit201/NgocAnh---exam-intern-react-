@@ -20,10 +20,12 @@ function Home() {
     return (
         <main>
             <div className="">
-                <div>
+                {/* header */}
+                <div className='fixed top-0 left-0 right-0  z-10 bg-bg-primary max-w-[1280px] mx-auto px-8 h-[80px] flex items-center justify-end'>
                     <Cart/>
                 </div>
-                <div className='grid grid-cols-3 gap-8 '>
+                {/* main */}
+                <div className='grid grid-cols-2 md:grid-cols-3 gap-8 pt-[48px]'>
                     {products.map((item) => (
                         <div key={item.id}>
                             <Product id={item.id} name={item.name} price={item.price} image={item.image} />
